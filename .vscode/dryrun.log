@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/Nader/Desktop/with us/Blood Bank Management System Project In C++ Source Code'
+g++ -lm -o -wall Donar.lib Donar.h -L. -LRoll.h -LName.h -LDepartment.h -LBlood_Group.h -LContact.h -Lstring -Liostream
+g++ -lm -o -wall Data_base.lib  Data_base.h  -L. -lDonar -Lstring -Lvector -Lwindows -Lcstring -Lcstdio -Liostream
+g++ -o -wall bin main.cpp -lData_base -Liostream -Lwindows -Lcstring
+ 
+make.exe: Leaving directory `c:/Users/Nader/Desktop/with us/Blood Bank Management System Project In C++ Source Code'
+ 
